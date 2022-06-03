@@ -26,7 +26,14 @@ function App() {
   });
   return (
     <div className="App">
-      <div style={{ width: 400 }}>
+      <div style={{ width: 400, 
+      position:"absolute",
+      bottom:0,
+      right:0,
+      left:0,
+      top:100,
+      margin:"auto"
+      }}>
         <BarChart chartData={userData} />
       </div>
       <div style={{ width: 400 }}>
